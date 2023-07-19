@@ -50,6 +50,11 @@ if (articleComments) {
     articleComments.parentNode.removeChild(articleComments);
 }
 
+var dataAfterContent = document.getElementById('mw-data-after-content');
+if (dataAfterContent) {
+  dataAfterContent.parentNode.removeChild(dataAfterContent);
+}
+
 function removeStaggeredBloat() {
     var marketingNotifications = document.querySelector('.marketing-notifications');
     if (marketingNotifications) {
