@@ -1,1 +1,1 @@
-"# FandomFormatter" 
+# FandomFormatter

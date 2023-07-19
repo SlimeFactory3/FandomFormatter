@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "FandomFormatter",
+  "version": "1.0",
+  "description": "Reformats Fandom/Wikia to a more usable website.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.fandom.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
