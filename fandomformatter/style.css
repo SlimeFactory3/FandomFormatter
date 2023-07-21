@@ -25,7 +25,10 @@
 .marketing-notifications {
     display: none !important;
 }
-.wiki-tools a[href="/f"]:nth-child(2) {
+.wiki-tools a[href="/f"] {
+    display: none;
+}
+.page-header__actions a[href="#articleComments"] {
     display: none;
 }
 .main-container {
